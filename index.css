@@ -6,7 +6,41 @@
 
 .video{
     width="560";
-    height="315"
-    border="0"
+    height="315";
+    border="0";
 }
 
+.accordion {
+    background-color: #fcf7f7;
+    color: #552c2c;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    transition: 0.7s;
+}
+
+
+.panel {
+    padding: 0 18px;
+    background-color: #fcf7f7;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: rgb(153, 86, 86);
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
