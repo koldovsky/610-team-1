@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
+
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+/* Anna added */
+:root {
+    margin: 0;
+    padding: 0;
+    --main-color:rgb(90, 55, 51);
+    --hover-color: #eb6d2f;
+}
+
+body{
+max-width:1100px ;
+margin: auto;
+}
+
+header .logo img{
+  width:192px;
+  height: auto;
+}
+
+h1 {
+  min-width: 320px;  
+}
+
+header .menu a {
+  display: block;
+  text-decoration: none;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+header .menu a:hover{
+  color: var(--hover-color);
+  
+}
+.maintitle {
+  font-size: 100px;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+header div .button{
+  background-color: var(--hover-color);
+  color: white; 
+  text-decoration: none;
+  padding: 5px 5px;
+  
+}
+header div .button:hover {
+  background-color: yellow;
+  color: white;
+}
+
+@media (min-width: 400px) {
+  header .top-nav{
+    display: flex;
+    align-items: center;
+    
+  }
+  header nav .menu {
+    display: flex;
+    flex: 1; 
+    align-items: center;   
+    justify-content: space-around;
+}
+/* Anna end */
+
+.video{
+    width="560";
+    height="315";
+    border="0";
+}
+
+.accordion {
+    background-color: #fcf7f7;
+    color: #552c2c;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    transition: 0.7s;
+}
+
+
+.panel {
+    padding: 0 18px;
+    background-color: #fcf7f7;
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: rgb(153, 86, 86);
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+}
