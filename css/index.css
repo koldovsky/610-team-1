@@ -198,6 +198,44 @@ header div .button:hover {
 .active:after {
   content: "\2796";
 }
+
+/* Section: 'Contact us' */
+
+.contacts-form {
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  text-align: center;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  padding-left: 10px;
+  background-color:#F9F4F0
+}
+
+.quote-message{
+  background-color:#F9F4F0
+}
+.quote-submit {
+  padding: 13px 30px;
+  margin: 5px 0 20px 0;
+  font-size: 15;
+  color: white;
+  background-color: #eb6d2f;
+  border: none;
+  cursor: pointer;
+}
+
+.quote-submit:hover {
+  background-color: rgb(90, 55, 51);
+  border-color:rgb(90, 55, 51);
+  color: white;
+}
 /* Yulia end */
 
 /*Maksym added*/

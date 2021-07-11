@@ -361,18 +361,26 @@
                    <br>
                    <a href="mailto:honeybee@email.com">honeybee@email.com</a>
                 </p>
-            <div class="contacts">
-                <form id="form">
-                    <input type="text" placeholder="Enter your full name*" required
+            <div class="contacts-form">
+                <form>
+                    <div class="quote-input">
+                     <input type="text" placeholder="Enter your full name*" required
                         name="full-name">
+                    </div>
                     <br>
-                    <input type="tel" name="phone-number" placeholder="Enter your phone number*" required>
+                    <div class="quote-input">
+                     <input type="tel" name="phone-number" placeholder="Enter your phone number*" required>
+                    </div>
+                     <br>
+                    <div class="quote-input">
+                     <input type="email" name="email" placeholder="Enter your e-mail*" required>
+                    </div>
                     <br>
-                    <input type="email" name="email" placeholder="Enter your e-mail*" required>
+                    <div class="quote-input">
+                     <textarea class="quote-message" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
                     <br>
-                    <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-                    <br>
-                    <input type="submit" value="Request a Quote">
+                    <input class="quote-submit" type="submit" value="Request a Quote">
                 </form>
             </div>
         </section>
