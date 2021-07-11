@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
 
-*{
-  font-family: 'Signika Negative', sans-serif;
-}
 /* Anna added */
 :root {
-  margin: 0;
-  padding: 0;
-  --main-color:rgb(90, 55, 51);
-  --hover-color: #eb6d2f;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+    padding: 0;
+    --main-color:rgb(90, 55, 51);
+    --hover-color: #eb6d2f;
 }
 
 body{
@@ -54,7 +52,7 @@ header div .button:hover {
   color: white;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 320px) {
   header .top-nav{
     display: flex;
     align-items: center;
@@ -141,7 +139,6 @@ header div .button:hover {
   transition: 0.7s;
 }
 
-
 .panel {
   padding: 0 18px;
   background-color: #fcf7f7;
@@ -163,3 +160,39 @@ header div .button:hover {
   content: "\2796";
 }
 /* Yulia end */
+
+/*Maksym added*/
+
+@media (min-width: 767px) {
+  .statistics-flex{
+    display: flex; 
+    justify-content: center; 
+    justify-content: space-between;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 991px) {
+  .statistics-flex{
+    display: flex; 
+    justify-content: center; 
+    justify-content: space-between;
+    justify-content: space-around;
+  }
+}
+
+.statistics-flex{
+    background-color:#F9F4F0 ;  
+}
+
+.statistics-header{
+    color: #eb6d2f;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.statistics-paragraph{
+  color: #552c2c;
+  font-size: 16px;
+  font-weight: bold;
+}
