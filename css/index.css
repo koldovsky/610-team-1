@@ -166,18 +166,59 @@ header div .button:hover {
 @media (min-width: 767px) {
   .statistics-flex{
     display: flex; 
-    justify-content: center; 
     justify-content: space-between;
     justify-content: space-around;
+  }
+  .statistics-element-one{
+      flex-direction: column;
+      align-self: flex-start;
+      flex-wrap: nowrap;
+      order: 1;
+  }
+  .statistics-element-two{
+    flex-direction: column;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    order: 2;
+  }
+  .statistics-element-three{
+    flex-direction: column-reverse;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    order: 1;
+  }
+   .statistics-element-four{
+   flex-direction: column-reverse;
+   align-self: flex-end;
+   flex-wrap: wrap;
+   order: 2;
   }
 }
 
 @media (min-width: 991px) {
-  .statistics-flex{
-    display: flex; 
-    justify-content: center; 
-    justify-content: space-between;
-    justify-content: space-around;
+  .statistics-element-one{
+      flex-direction: row;
+      align-self: flex-start;
+      flex-wrap: nowrap;
+      order: 1;
+  }
+  .statistics-element-two{
+    flex-direction: row;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    order: 2;
+  }
+  .statistics-element-three{
+    flex-direction: row;
+    align-self: flex-start;
+    flex-wrap: nowrap;
+    order: 3;
+  }
+   .statistics-element-four{
+   flex-direction: row;
+   align-self: flex-start;
+   flex-wrap: nowrap;
+   order: 4;
   }
 }
 
