@@ -237,3 +237,71 @@ header div .button:hover {
   font-size: 16px;
   font-weight: bold;
 }
+
+.testimonials-container{
+  margin-top: 1em;
+}
+
+.testimonials-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around
+}
+
+.testimonials-h2{
+  color: #F7BD00;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.testimonials-h3{
+  color: black;
+  font-size: 50px;
+}
+
+.testimonials-paragraph{
+  font-size: 16px;
+  color: black
+}
+
+.testimonials-elements{
+  background-color: #5A3733;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.testimonial-person-h{
+  color: #F7BD00;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.testimonial-person-p{
+  color: #FFF;
+  font-size: 16px;
+}
+
+.testimonial-person-p-2{
+  color: #FFF;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.testimonials-image{
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around
+}
+
+@media (min-width: 767px){
+  .testimonials-elements{
+    flex-direction: row;
+  }
+}
