@@ -267,7 +267,6 @@ header div .button:hover {
 }
 
 .testimonials-elements{
-  background-color: #5A3733;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -279,17 +278,23 @@ header div .button:hover {
   color: #F7BD00;
   font-size: 25px;
   font-weight: bold;
+  padding: 5%;
+  text-align: center;
 }
 
 .testimonial-person-p{
   color: #FFF;
   font-size: 16px;
+  padding: 5%;
+  text-align: center;
 }
 
 .testimonial-person-p-2{
   color: #FFF;
   font-size: 14px;
   font-weight: bold;
+  padding: 5%;
+  text-align: center;
 }
 
 .testimonials-image{
@@ -297,11 +302,30 @@ header div .button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  justify-content: space-around
+  justify-content: space-around;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 
 @media (min-width: 767px){
   .testimonials-elements{
     flex-direction: row;
   }
+}
+
+.person-one{
+  background-color: #5A3733;
+  margin: 10px 30px 10px 30px;
+}
+
+.person-two{
+  background-color: #5A3733;
+  margin: 10px 30px 10px 30px;
+}
+
+.person-three{
+  background-color: #5A3733;
+  margin: 10px 30px 10px 30px;
 }
