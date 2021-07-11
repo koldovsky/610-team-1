@@ -329,3 +329,46 @@ header div .button:hover {
   background-color: #5A3733;
   margin: 10px 30px 10px 30px;
 }
+
+.sale-container{
+  background-color: #F9F4F0;
+}
+
+.sale-text{
+  text-align: center;
+}
+
+.sale-h{
+  color: #552c2c;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.sale-p{
+  color: #ABB2B9;
+  font-size: 18px;
+  text-align: center;
+}
+
+.sale-number{
+  color: #552c2c;
+  font-size: 50px;
+  text-align: center;
+}
+
+.sale-word{
+  color: #552c2c;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sale-numbers{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+}
