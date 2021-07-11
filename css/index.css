@@ -75,43 +75,82 @@ header div .button:hover {
 /* Yulia start */
 /* Section: 'How to order' */
 
-
-.order1 figure{
-  width: 31%;
-  margin: 1%;
-  display: inline-block;
+.order1{
+  margin-top: 10em;
 }
 
 .order1 figcaption {
   text-align: center;
   font-family: sans-serif;
   color: rgb(90, 55, 51);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around
+}
+
+.order2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .bee-with-flower {
-  border: 10px;
-  width: 100%;
+  width: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bees-with-a-bowl-of-honey {
-  border: 10px;
-  width: 100%;
+  width: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.bee-with-a-bowl-of-honey{
-  border: 10px;
-  width: 100%;
+.bee-with-a-bowl-of-honey {
+  width: 344px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media (min-width: 650px) {
+  .order2 {
+    flex-direction: row;
+  }
 }
 
 .btn {
-  border: 2px solid black;
   background-color: #eb6d2f;
   color: black;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  text-decoration: none;	
-  margin-left: 40%
+  text-decoration: none;
+}
+.order-button {
+  text-align: center;
 }
 
 .request {
@@ -127,7 +166,7 @@ header div .button:hover {
 
 /* Section: 'FAQ' */
 .accordion {
-  background-color: #fcf7f7;
+  background-color: #F9F4F0;
   color: #552c2c;
   cursor: pointer;
   padding: 18px;
@@ -141,7 +180,7 @@ header div .button:hover {
 
 .panel {
   padding: 0 18px;
-  background-color: #fcf7f7;
+  background-color: #F9F4F0;
   display: none;
   overflow: hidden;
   max-height: 0;
