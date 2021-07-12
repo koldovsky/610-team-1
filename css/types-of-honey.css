@@ -17,7 +17,20 @@
 img{
     width: 100px;
     height: auto;
-  }
+}
+
+section div div .button{
+    background-color: var(--hover-color);
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius:10px;
+}
+section div div .button:hover {
+    background-color: rgb(248, 187, 20);
+    color: white;
+}
 /* check block*/
 
 section .check{
@@ -49,7 +62,7 @@ section div .slide-honey{
     flex-direction: column;  
     align-items: center;
     background-color:white;  
-    margin-left: 10px;
+    margin-left:15px;
     margin-right: auto; 
     }
 
@@ -67,7 +80,7 @@ section div .slide-honey{
 }
 
 .img-carousel-two {
-min-width: 344px;
+min-width: 344px;g
 
 }
 section div .slide-shop{
