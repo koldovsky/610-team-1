@@ -19,7 +19,7 @@ img{
     height: auto;
 }
 
-section div div .button{
+section div div .button-outline-button{
     background-color: var(--hover-color);
     color: white; 
     text-decoration: none;
@@ -27,7 +27,7 @@ section div div .button{
     padding: 15px 25px;
     border-radius:10px;
 }
-section div div .button:hover {
+section div div .button-outline-button:hover {
     background-color: rgb(248, 187, 20);
     color: white;
 }
@@ -80,19 +80,19 @@ section div .slide-honey{
 }
 
 .img-carousel-two {
-min-width: 344px;g
+min-width: 344px;
 
 }
 section div .slide-shop{
     display: flex; 
     flex-direction: column;  
     align-items: center;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right: auto; 
 }
 
 @media (min-width: 650px){
-    .img-carousel-two {
+    .carousel-two {
         flex-direction: row; }
 }
 
