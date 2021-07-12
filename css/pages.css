@@ -3,3 +3,75 @@
 *{
     font-family: 'Signika Negative', sans-serif;
 }
+
+/* Header css was copied from Anna's part */
+
+header .logo img{
+    width:192px;
+    height: auto;
+  }
+  
+  h1 {
+    min-width: 320px;  
+  }
+  
+  header .menu a {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 3px;
+  }
+  
+  header .menu a:hover{
+    color: var(--hover-color);
+    
+  }
+  .maintitle {
+    font-size: 100px;
+    color: var(--main-color);
+    text-transform: uppercase;
+  }
+  header div .button{
+    background-color: var(--hover-color);
+    color: white; 
+    text-decoration: none;
+    padding: 5px 5px;
+    
+  }
+  header div .button:hover {
+    background-color: yellow;
+    color: white;
+  }
+  
+  @media (min-width: 320px) {
+    header .top-nav{
+      display: flex;
+      align-items: center;
+      
+    }
+    header nav .menu {
+      display: flex;
+      flex: 1; 
+      align-items: center;   
+      justify-content: space-around;
+  }
+
+  /* Main block */
+
+  .page-main-part{
+    display: flex; 
+    flex: 1; 
+  }
+
+.page-left-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.page-right-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
