@@ -101,11 +101,10 @@ header div .button:hover {
   margin-top: 10em;
 }
 
-.order1 figcaption {
+.order-text {
   text-align: center;
-  font-family: sans-serif;
   color: rgb(90, 55, 51);
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -114,6 +113,17 @@ header div .button:hover {
   justify-content: space-around
 }
 
+.order-subtitle {
+  text-align: center;
+  color: rgb(90, 55, 51);
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around
+}
 .order2 {
   display: flex;
   align-items: center;
@@ -182,7 +192,6 @@ header div .button:hover {
 
 .request:hover {
   background-color: rgb(90, 55, 51);
-  border-color:rgb(90, 55, 51);
   color: white;
 }
 
@@ -246,7 +255,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .quote-submit {
   padding: 13px 30px;
   margin: 5px 0 20px 0;
-  font-size: 15;
+  font-size: 15px;
   color: white;
   background-color: #eb6d2f;
   border: none;
@@ -254,8 +263,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .quote-submit:hover {
-  background-color: rgb(90, 55, 51);
-  border-color:rgb(90, 55, 51);
+  background-color: rgb(248, 187, 20);
   color: white;
 }
 /* Yulia end */
