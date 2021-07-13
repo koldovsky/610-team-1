@@ -196,6 +196,37 @@ header div .button:hover {
 }
 
 /* Section: 'FAQ' */
+
+.faq-section {
+  margin-top: 10em;
+  background: #F9F4F0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-img {
+  width: 600px;
+}
+.faq-h2{
+  color: #eb6d2f;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.faq-p1{
+  color: rgb(90, 55, 51);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.faq-p2{
+  color: rgb(90, 55, 51);
+  font-size: 18px;
+  font-weight: bold;
+}
+
 .accordion {
   background-color: #F9F4F0;
   color: #552c2c;
