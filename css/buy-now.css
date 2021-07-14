@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
+
+:root{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+    padding: 0;
+    --main-color:rgb(90, 55, 51);
+    --hover-color: #eb6d2f;
+    --background-color: rgb(247, 248, 250);
+    --products-color: #939393;
+}
+
+.head {
+  display: grid;
+  grid-template-rows: (4fr, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  max-width:500px;
+  background-color: var(--background-color); 
+  height:50px ;
+  align-content: center;
+  
+}
+.maintitle {
+  grid-column: 4/1 ;
+  grid-row: 1;
+  justify-self: start;
+  padding-left: 10px;
+  align-self: center;
+  color: var(--main-color);
+  text-transform: none;
+  font-size: 20px; 
+  
+}
+.button {
+  grid-column: 4;
+  grid-row: 1 ;
+  justify-self: end;
+  align-self: center;
+  color: var(--main-color);
+  text-decoration: none;
+  padding-right: 10px;
+  
+}
+
+
+.products { font-size: 16px;
+  text-decoration: none;
+  color: var(--products-color);
+  text-transform: none;
+  background: white
+}
+
+.must-information{
+  color: red;
+}
+
+input{
+  width: 300px;
+  height: 30px;
+  border: var(--products-color);
+  box-shadow: 1px 1px 2px 0 blue;
+}
+
+.image-honey-shop {
+  height:40px;
+  width: auto;
+
+}
