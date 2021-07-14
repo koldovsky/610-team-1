@@ -405,6 +405,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   background-size: cover;
   margin-top: 1em;
   padding-bottom: 7em;
+  margin-bottom: 10em;
 }
 
 .testimonials-text{
