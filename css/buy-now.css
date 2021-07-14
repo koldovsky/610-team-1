@@ -42,8 +42,8 @@
   
 }
 
-
-.products { font-size: 16px;
+.products { 
+  font-size: 16px;
   text-decoration: none;
   color: var(--products-color);
   text-transform: none;
