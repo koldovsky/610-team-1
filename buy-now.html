@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Buy Now</title>
 </head>
 <body>
-    <div>
+    <div class="head">
         <!--Title-->
-        <h4>Shopping cart</h4>
+        
+        <h4 class="maintitle">Shopping cart</h4>
         <a href="index.html" class="button">&#10060;</a>
-        <h5>Products</h5>
+        
+        
     </div>
     <div>
     <!--order-->
+    <div><h5 class="products">Products</h5> </div>
         <div>
             <div>
-                <img src="img/types-of-honey/WildflowerHoney.jpg" alt="WildflowerHoney"> 
-                <p>Clover Honey</p>
+                <img class="image-honey-shop" src="img/types-of-honey/CloverHoney.jpg" alt="Clover Honey"> 
+                <p class="products">Clover Honey</p>
                 <p>$8,00USD</p>
             </div>
             <div class="quantity">
@@ -37,15 +41,15 @@
                 </button>   
             </div>
             <div>
-                <p>Total: $23,00USD</p>
-                <p>Place an order</p>
+                <p class="count">Total: $23,00USD</p>
+                <p class="products">Place an order</p>
             </div>        
         </div>        
     </div>
     <div>
         <form method="POST" action="https://formspree.io/f/meqvzwnj">
-            <label>Name * <br>
-                <input type="text" placeholder="Your name" required name="your-name"> 
+            <label>Name<span class="must-information"> *</span> <br>
+                <input class="block" type="text" placeholder="Your name" required name="your-name"> 
             </label>
             <br>
             <label>Email *<br>
@@ -66,3 +70,4 @@
 
 </body>
 </html>
+
