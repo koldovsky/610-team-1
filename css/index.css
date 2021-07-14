@@ -413,7 +413,8 @@ input[type="text"], input[type="tel"], input[type="email"] {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  justify-content: space-around
+  justify-content: space-around;
+  margin-bottom: 3em;
 }
 
 .testimonials-h2{
@@ -446,6 +447,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   font-size: 25px;
   font-weight: bold;
   padding: 5%;
+  margin-bottom: -5em;
   text-align: center;
 }
 
@@ -454,6 +456,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   font-size: 16px;
   padding: 5%;
   text-align: center;
+  margin-bottom: -5em;
 }
 
 .testimonial-person-p-2{
