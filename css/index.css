@@ -40,7 +40,7 @@ input:checked ~ .menu {
 @media (min-width: 500px) {
 
   .burger-icon {
-      display: none;
+      display: none;}
 } 
 
 header .menu a {
@@ -84,14 +84,14 @@ header div .button:hover {
     display: flex;
     flex: 1; 
     align-items: center;   
-    justify-content: space-around;
+    justify-content: space-around;}
 }
 /* Anna end */
 
 .video{
-  width="560";
-  height="315";
-  border="0";
+  width: 560px;
+  height: 315px;
+  border: 0px;
 }
 
 /* Yulia start */
