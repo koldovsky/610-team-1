@@ -13,24 +13,31 @@ body{
 max-width:100% ;
 margin: auto;
 }
+.banner {
+  background-image: url(../img/cover.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  max-height: 500px;
+ 
+}
 
 header .logo img{
-  width:192px;
+  width: 200px;
   height: auto;
+
 }
 
-h1 {
-  min-width: 320px;  
-}
 .burger-icon {
   font-size: 3.5rem;
+  padding-left: 150px;
 }
 
 #burger-checkbox {
   display: none;
+  align-items: center;
 }
 header .menu {
-  padding: 0 5px;
+  padding: 50px;
   display: none;
 }
 
@@ -55,8 +62,15 @@ header .menu a:hover{
   color: var(--hover-color);
   
 }
+.organictitle {
+  font-size: 16px;
+  color: var(--hover-color);
+  text-align: left;
+  padding-top: 40px;
+}
 .maintitle {
-  font-size: 100px;
+  font-size: 70px;
+  font-weight: bold;
   color: var(--main-color);
   text-transform: uppercase;
 }
@@ -84,7 +98,8 @@ header div .button:hover {
     display: flex;
     flex: 1; 
     align-items: center;   
-    justify-content: space-around;}
+    justify-content: space-around;
+    padding: top 10px;}
 }
 /* Anna end */
 

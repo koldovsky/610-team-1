@@ -1,12 +1,26 @@
 .h-title-types {
-    font-size: 14px;
+    font-size: 17px;
     color: var(--hover-color);
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 10px;
 }
 .subtitle-types{
     font-size: 50px;
     color: var(--main-color);
     width: 100%;
     text-align: left;
+    font-weight: bold;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: space-around
 }
 .store-honey {
     background-color:#F9F4F0 ; 
