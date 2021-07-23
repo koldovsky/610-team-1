@@ -1,9 +1,9 @@
 const carouseleTestimonials = document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements");
 
 const slides = [
-	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-one");
-	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-two");
-	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-three");   
+	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-one"),
+	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-two"),
+	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-three")   
 ]
 
 let currentSlide = 0;
@@ -20,7 +20,7 @@ function nextSlide () {
 }
 
 function prevSlide () {
-	currentSlide+--;
+	currentSlide+--
 	if (currentSlide < 0) currentSlide = slides.length - 1;
 	showCurrentSlide();
 }

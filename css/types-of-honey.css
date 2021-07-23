@@ -23,7 +23,7 @@
         justify-content: space-around
 }
 .store-honey {
-    background-color:#F9F4F0 ; 
+    background-color:#F9F4F0 ;
 }
 .types {
     background-color:#F9F4F0 ; 
@@ -91,6 +91,8 @@ section div .slide-honey{
     justify-content: space-between;
     justify-content: space-around;
     flex-direction: column;
+    max-width: 800px;
+    
 }
 
 .img-carousel-two {
