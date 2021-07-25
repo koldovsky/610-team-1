@@ -221,12 +221,12 @@ header div .button:hover {
 /* Section: 'FAQ' */
 
 .faq-section {
-  margin-top: 10em;
   background: #F9F4F0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
+  padding: 13px 150px;
 }
 
 .faq-img {
@@ -247,12 +247,18 @@ header div .button:hover {
 .faq-p2{
   color: rgb(90, 55, 51);
   font-size: 18px;
-  font-weight: bold;
+  font-weight: lighter;
+}
+
+.accordion-text {
+  color: rgb(90, 55, 51);
+  font-weight: lighter;
 }
 
 .accordion {
   background-color: #F9F4F0;
   color: #552c2c;
+  font-weight: bold;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -266,7 +272,6 @@ header div .button:hover {
 .panel {
   padding: 0 18px;
   background-color: #F9F4F0;
-  display: none;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
