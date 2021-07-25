@@ -1,4 +1,34 @@
-const carouseleTestimonials = document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements");
+const slides = [
+	document.getElementsByClassName(".person-one"),
+	document.getElementsByClassName(".person-two"),
+	document.getElementsByClassName(".person-three"),
+]
+
+function showCurrentSlide() {
+    const slideTarget = document.querySelector('.current-slide');
+    slideTarget.src = slides[currentSlide];
+}
+let currentSlide = 0;
+
+function nextSlide() {
+    currentSlide++;
+    if (currentSlide >= slides.length) currentSlide = 0;
+    showCurrentSlide();
+}
+
+function prevSlide() {
+    currentSlide--;
+    if (currentSlide < 0) currentSlide = slides.length - 1;
+    showCurrentSlide();
+}
+
+document.querySelector('.next').addEventListener('click', nextSlide);
+document.querySelector('.prev').addEventListener('click', prevSlide);
+
+showCurrentSlide();
+setInterval(nextSlide, 3000);
+
+/*const carouseleTestimonials = document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements");
 
 const slides = [
 	document.querySelector("body > main > nav.testimonials-container > div.testimonials-elements > div.person-one"),
@@ -29,5 +59,5 @@ function prevSlide () {
 document.querySelector('.next').addEventListener('click', nextSlide);
 document.querySelector('.prev').addEventListener('click', prevSlide);
 
-showCurrentSlide();
+showCurrentSlide();*/
 //setInterval(nextSlide, 3000);
