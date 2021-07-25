@@ -7,44 +7,51 @@
     padding: 0;
     --main-color:rgb(90, 55, 51);
     --hover-color: #eb6d2f;
+    --background: #F9F4F0;
 }
 
 body{
-max-width:100% ;
-margin: auto;
+  max-width:100% ;
+  margin: auto;
 }
+
+
 .banner {
   background-image: url(../img/cover.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: auto;
+  background-position: top;
   max-height: 500px;
- 
-}
+ }
 
 header .logo img{
   width: 200px;
   height: auto;
-
 }
 
 .burger-icon {
-  font-size: 3.5rem;
-  padding-left: 150px;
+  font-size: 2.5rem;
+  padding-left: 200px;
+  align-items: left;
+  cursor: pointer;
 }
 
 #burger-checkbox {
   display: none;
   align-items: center;
+  padding-bottom: 15px;
 }
 header .menu {
   padding: 50px;
   display: none;
+  font-weight: bold;
+  background-color: var(--background); 
 }
 
 input:checked ~ .menu {
   display: block;  
 } 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
 
   .burger-icon {
       display: none;}
@@ -55,7 +62,7 @@ header .menu a {
   text-decoration: none;
   color: var(--main-color);
   text-align: center;
-  margin-bottom: 3px;
+  margin-left: 30px;
 }
 
 header .menu a:hover{
@@ -88,7 +95,7 @@ header div .button:hover {
   color: white;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
   header .top-nav{
     display: flex;
     align-items: center;
@@ -97,9 +104,10 @@ header div .button:hover {
   header nav .menu {
     display: flex;
     flex: 1; 
-    align-items: center;   
-    justify-content: space-around;
-    padding: top 10px;}
+    align-items: baseline;   
+    justify-content: flex-end;
+    padding-left: 15px;
+    margin-left:20px;
 }
 /* Anna end */
 
