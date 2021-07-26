@@ -1,7 +1,7 @@
 const slides = [
-	document.getElementsByClassName(".person-one"),
-	document.getElementsByClassName(".person-two"),
-	document.getElementsByClassName(".person-three"),
+	'img/testimonials-people/tsm1.webp',
+	'img/testimonials-people/tsm3.webp',
+	'img/testimonials-people/tsm2.webp',
 ]
 
 function showCurrentSlide() {
