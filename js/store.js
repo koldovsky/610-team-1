@@ -55,3 +55,4 @@ function renderProducts(products){
     document.querySelector('.carousel-two').innerHTML = html;
 }
 renderProducts(product);
+

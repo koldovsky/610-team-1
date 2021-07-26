@@ -54,15 +54,123 @@
   color: red;
 }
 
-input{
+/*input{
   width: 300px;
   height: 30px;
   border: var(--products-color);
   box-shadow: 1px 1px 2px 0 blue;
-}
+}*/
 
 .image-honey-shop {
   height:40px;
   width: auto;
 
+}
+.button-order{
+  background-color: var(--hover-color);
+  color: white; 
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius:10px;
+  
+}
+.button-.button-order {
+  background-color: rgb(248, 187, 20);
+  color: white;
+}
+
+/* Section: 'Contact us' */
+.contacts-h2 {
+  color: #eb6d2f;
+  font-size: 20px;
+}
+
+.contacts-subtitle {
+  color: rgb(90, 55, 51);
+  font-size: 50px;
+  font-weight:bold;
+}
+
+.contacts-p {
+  color: rgb(90, 55, 51);
+  font-size: 20px;
+  font-weight:lighter;
+}
+
+.contacts-h3 {
+  color: rgb(90, 55, 51);
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.contacts-info {
+  padding: 200px;
+}
+
+.contacts-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9F4F0;
+  width: 100%;
+}
+
+.contacts-input-text {
+  color: rgb(90, 55, 51);
+  font-size: 20px;
+  font-weight:lighter;
+}
+
+.contacts-form {
+  text-align: left;
+
+  padding: 5px;
+  background-color: white;
+  padding: 50px;
+  width: 70%;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  height: 50px;
+  font-size: 19px;
+  margin-bottom: 25px;
+  padding-left:25px;
+  border-radius: 3px;
+  background-color:#F9F4F0;
+  border: 1px solid white;
+  width: 70%;
+  text-align: left;
+}
+
+
+.quote-message{
+  height: 150px;
+  border-radius: 3px;
+  background-color:#F9F4F0;
+  border: 1px solid white;
+  font-size: 20px;
+  width: 70%;
+  text-align: left;
+  color: rgb(90, 55, 51);
+  font-weight:lighter;
+  padding-left:25px;
+}
+.quote-submit {
+  padding: 13px 30px;
+  margin: 5px 0 20px 0;
+  font-size: 19px;
+  color: white;
+  background-color: #eb6d2f;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  width: 70%;
+}
+
+.quote-submit:hover {
+  background-color: rgb(248, 187, 20);
+  color: white;
 }
