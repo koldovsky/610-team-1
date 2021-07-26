@@ -584,6 +584,14 @@ input[type="text"], input[type="tel"], input[type="email"] {
   margin: 10px 30px 10px 30px;
 }
 
+.current-slide{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 .sale-container{
   background-color: #F9F4F0;
 }
