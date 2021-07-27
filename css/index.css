@@ -121,10 +121,20 @@ header div .button:hover {
 /* Section: 'How to order' */
 
 .order1{
-  margin-top: 10em;
+  background-color:#f7bd00;
+}
+.order-text {
+  text-align: center;
+  color: #eb6d2f;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0rem;
 }
 
-.order-text {
+.order-text-h3{
   text-align: center;
   color: rgb(90, 55, 51);
   font-size: 17px;
@@ -132,10 +142,17 @@ header div .button:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  justify-content: space-around
 }
 
+.order-text-p {
+  text-align: center;
+  color: rgb(90, 55, 51);
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .order-subtitle {
   text-align: center;
   color: rgb(90, 55, 51);
@@ -144,51 +161,46 @@ header div .button:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  justify-content: space-around
 }
 .order2 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  justify-content: space-around;
   flex-direction: column;
+  background-color:#f7bd00;
 }
 
 .bee-with-flower {
-  width: 344px;
+  width: 200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  justify-content: space-around;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .bees-with-a-bowl-of-honey {
-  width: 344px;
+  width: 200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  justify-content: space-around;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .bee-with-a-bowl-of-honey {
-  width: 344px;
+  width: 200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  justify-content: space-around;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-
+.honey-img {
+  width: 1680px;
+  display: flex;
+  align-items: center;
+}
 
 @media (min-width: 650px) {
   .order2 {
@@ -206,6 +218,7 @@ header div .button:hover {
 }
 .order-button {
   text-align: center;
+  background-color:#f7bd00;
 }
 
 .request {
