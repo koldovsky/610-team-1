@@ -660,3 +660,12 @@ input[type="text"], input[type="tel"], input[type="email"] {
   justify-content: space-around;
   flex-direction: row;
 }
+
+.map-container{
+  display: flex;
+}
+
+.map-contacts{
+  height: 500px;
+  width: 100%;
+}
