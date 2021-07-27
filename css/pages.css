@@ -101,20 +101,27 @@ header div .button:hover {
 }
 
   /* Main block */
-
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   .page-main-part{
-    display: flex; 
-    flex: 1; 
+    grid-template-columns: 1fr 1fr;
+  
   }
 
 .page-left-block{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+
 }
 
 .page-right-block{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    display: grid;
+
+}
+
+.main-page-link{
+  display: grid;
+
+}
+
+.page-smal-image{
+  width: 10px;
 }
