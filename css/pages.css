@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
 
-*{
-    font-family: 'Signika Negative', sans-serif;
+:root{
+  font-family: 'Signika Negative', sans-serif;
+  max-width:80% ;
+  margin: auto;
 }
 
 /* Header css was copied from Anna's part */
@@ -85,11 +87,10 @@ header div .button:hover {
   color: white;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 767px) {
   header .top-nav{
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
   }
   header nav .menu {
     display: flex;
@@ -98,11 +99,25 @@ header div .button:hover {
     justify-content: flex-end;
     padding-left: 15px;
     margin-left:20px;
+  }
 }
 
   /* Main block */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 767px) {
   .page-main-part{
+    display: flex;
+    flex-direction: column;
+  }
+  .pages-forms{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
+
+.page-main-part{
     grid-template-columns: 1fr 1fr;
   
   }
@@ -124,4 +139,8 @@ header div .button:hover {
 
 .page-smal-image{
   width: 10px;
+}
+
+.store-homepage-link{
+  text-decoration: none;
 }
