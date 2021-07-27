@@ -6,56 +6,99 @@
 
 /* Header css was copied from Anna's part */
 
+.banner {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-height: 500px;
+ }
+
 header .logo img{
-    width:192px;
-    height: auto;
-  }
+  width: 200px;
+  height: auto;
+}
+
+.burger-icon {
+  font-size: 2.5rem;
+  padding-left: 200px;
+  align-items: left;
+  cursor: pointer;
+}
+
+#burger-checkbox {
+  display: none;
+  align-items: center;
+  padding-bottom: 15px;
+}
+header .menu {
+  padding: 50px;
+  display: none;
+  font-weight: bold;
+  background-color: var(--background); 
+}
+
+input:checked ~ .menu {
+  display: block;  
+} 
+@media (min-width: 700px) {
+
+  .burger-icon {
+      display: none;}
+} 
+
+header .menu a {
+  display: block;
+  text-decoration: none;
+  color: var(--main-color);
+  text-align: center;
+  margin-left: 30px;
+}
+
+header .menu a:hover{
+  color: var(--hover-color);
   
-  h1 {
-    min-width: 320px;  
-  }
+}
+.organictitle {
+  font-size: 16px;
+  color: var(--hover-color);
+  text-align: left;
+  padding-top: 40px;
+}
+.maintitle {
+  font-size: 70px;
+  font-weight: bold;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+header div .button{
+  background-color: var(--hover-color);
+  color: white; 
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius:10px;
   
-  header .menu a {
-    display: block;
-    text-decoration: none;
-    color: var(--main-color);
-    text-align: center;
-    margin-bottom: 3px;
-  }
-  
-  header .menu a:hover{
-    color: var(--hover-color);
+}
+header div .button:hover {
+  background-color: rgb(248, 187, 20);
+  color: white;
+}
+
+@media (min-width: 700px) {
+  header .top-nav{
+    display: flex;
+    align-items: center;
     
   }
-  .maintitle {
-    font-size: 100px;
-    color: var(--main-color);
-    text-transform: uppercase;
-  }
-  header div .button{
-    background-color: var(--hover-color);
-    color: white; 
-    text-decoration: none;
-    padding: 5px 5px;
-    
-  }
-  header div .button:hover {
-    background-color: yellow;
-    color: white;
-  }
-  
-  @media (min-width: 320px) {
-    header .top-nav{
-      display: flex;
-      align-items: center;
-      
-    }
-    header nav .menu {
-      display: flex;
-      flex: 1; 
-      align-items: center;   
-      justify-content: space-around;
-  }
+  header nav .menu {
+    display: flex;
+    flex: 1; 
+    align-items: baseline;   
+    justify-content: flex-end;
+    padding-left: 15px;
+    margin-left:20px;
+}
 
   /* Main block */
 
