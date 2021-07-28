@@ -676,3 +676,29 @@ input[type="text"], input[type="tel"], input[type="email"] {
   height: 500px;
   width: 100%;
 }
+
+/*Chris added some CSS*/
+
+.whychooseusimage{
+  display: flex;
+  align-self:flex-start;
+  flex:1;
+
+}
+.whychooseustext{
+  display: flex;
+  align-self:flex-end;
+  flex:2;
+  flex-direction: column;
+}
+.whychooseus{
+  color: #eb6d2f;
+  font-size: 20px;
+  flex-direction: column;
+}
+.whychooseussection{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
