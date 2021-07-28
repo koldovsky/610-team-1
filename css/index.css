@@ -678,7 +678,11 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 /*Chris added some CSS*/
-
+.whychooseussection{
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
 .whychooseusimage{
   display: flex;
   align-self:flex-start;
@@ -691,14 +695,15 @@ input[type="text"], input[type="tel"], input[type="email"] {
   flex:2;
   flex-direction: column;
 }
-.whychooseus{
+.whychooseusheader{
   color: #eb6d2f;
   font-size: 20px;
   flex-direction: column;
 }
-.whychooseussection{
-  display: flex;
-  flex: 2;
-  flex-direction: column;
+.whychooseusbigheader{
+  color: #552c2c;
+  font-size: 50px;
 }
-
+.whychooseusheaderbrown{
+  color: #552c2c;
+}
