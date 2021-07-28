@@ -11,7 +11,7 @@
 }
 
 body{
-  max-width:100% ;
+  max-width:1200px;
   margin: auto;
 }
 
@@ -73,14 +73,14 @@ header .menu a:hover{
   font-size: 16px;
   color: var(--hover-color);
   text-align: left;
-  padding-top: 40px;
+  padding-top: 190px;
 }
 .maintitle {
   font-size: 70px;
   font-weight: bold;
   color: var(--main-color);
   text-transform: uppercase;
-}
+  }
 header div .button{
   background-color: var(--hover-color);
   color: white; 

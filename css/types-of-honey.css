@@ -80,7 +80,7 @@ section div .check-icon {
 }
 
 .img-carousel-one {
-min-width: 344px;
+min-width: 200px;
 
 }
 section div .slide-honey{
@@ -109,7 +109,6 @@ section div .slide-honey{
     text-align: center;
     color: var(--main-color);
     font-size: 17px;
-    font-weight: bold;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -117,7 +116,7 @@ section div .slide-honey{
     justify-content: space-around
   }
 .img-carousel-two {
-min-width: 344px;
+min-width: 200px;
 
 }
 section div .slide-shop{
