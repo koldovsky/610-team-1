@@ -144,15 +144,20 @@ header div .button:hover {
   flex-direction: column;
 }
 
+.order-text-top-p {
+  text-align: center;
+  color: rgb(90, 55, 51);
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .order-text-p {
   text-align: center;
   color: rgb(90, 55, 51);
   font-size: 17px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
+
 .order-subtitle {
   text-align: center;
   color: rgb(90, 55, 51);
@@ -170,7 +175,7 @@ header div .button:hover {
 }
 
 .bee-with-flower {
-  width: 200px;
+  width: 300px;
   display: flex;
   align-items: center;
   display: block;
@@ -179,7 +184,7 @@ header div .button:hover {
 }
 
 .bees-with-a-bowl-of-honey {
-  width: 200px;
+  width: 300px;
   display: flex;
   align-items: center;
   display: block;
@@ -188,7 +193,7 @@ header div .button:hover {
 }
 
 .bee-with-a-bowl-of-honey {
-  width: 200px;
+  width: 300px;
   display: flex;
   align-items: center;
   display: block;
