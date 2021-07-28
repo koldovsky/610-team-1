@@ -320,6 +320,12 @@ header div .button:hover {
   font-weight:lighter;
 }
 
+.contacts-top-p {
+  color: rgb(90, 55, 51);
+  font-size: 20px;
+  font-weight:lighter;
+}
+
 .contacts-h3 {
   color: rgb(90, 55, 51);
   font-size: 30px;
@@ -327,7 +333,7 @@ header div .button:hover {
 }
 
 .contacts-info {
-  padding: 200px;
+  padding: 250px;
 }
 
 .contacts-us {
@@ -350,7 +356,7 @@ header div .button:hover {
   padding: 5px;
   background-color: white;
   padding: 50px;
-  width: 70%;
+  width: 60%;
 }
 
 input[type="text"], input[type="tel"], input[type="email"] {
@@ -399,6 +405,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 
 .gallery {
   background-color: #F9F4F0;
+  margin:0rem;
 }
 
 .gallery-img {
