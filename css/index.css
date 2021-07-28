@@ -95,7 +95,7 @@ header div .button:hover {
   color: white;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 350px) {
   header .top-nav{
     display: flex;
     align-items: center;
