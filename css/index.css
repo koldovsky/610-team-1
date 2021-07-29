@@ -752,14 +752,45 @@ background-size: cover;
   justify-content: space-around;
 }
 .footersocial{
-
+  color:#663B36;
+  margin-bottom: 2rem;
 }
 .footercreatedby{
   display:flex;
   justify-content:center;
   color:grey;
+  
 }
 .team1{
   font-weight:bold;
   color:grey;
+}
+@media (max-width: 767px){
+  .footermenu{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footermenu a {
+  color:#663B36;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footersocial a {
+  color:#663B36;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footermenu a:hover{
+  color:#eb6d2f;
+}
+.footersocial a:hover{
+  color:#eb6d2f;
+}
+.team1:hover{
+  color:#eb6d2f;
+  transition: 01s ease-out;
 }
