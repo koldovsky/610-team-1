@@ -1,13 +1,13 @@
 (function() {
 
 	const slides = [
-	  `<div class="person-one person-tes current-slide">
-						 <img src="img/testimonials-people/tsm2.webp" alt="Portrait1" class="testimonials-image">
-					  <h4 class="testimonial-person-h">Jessica Peterson</h4>
-					  <p class="testimonial-person-p">“This is great honey, 100% natural! It is not the first time I order honey from this company, and every time I know that I will get delicious, high-quality, not crystallized honey. I use honey as a topping for pancakes, various desserts, and marinades. It is delicious and my children also like this honey!"</p>
-					  <p class="testimonial-person-p-2">October 28, 2020</p>
-				  </div>`,
-	  `<div class="person-two person-tes">
+	    `<div class="person-one person-tes current-slide">
+			<img src="img/testimonials-people/tsm2.webp" alt="Portrait1" class="testimonials-image">
+			<h4 class="testimonial-person-h">Jessica Peterson</h4>
+			<p class="testimonial-person-p">“This is great honey, 100% natural! It is not the first time I order honey from this company, and every time I know that I will get delicious, high-quality, not crystallized honey. I use honey as a topping for pancakes, various desserts, and marinades. It is delicious and my children also like this honey!"</p>
+			<p class="testimonial-person-p-2">October 28, 2020</p>
+		</div>`,
+	    `<div class="person-two person-tes">
 					  <img src="img/testimonials-people/tsm1.webp" alt="Portrait2" class="testimonials-image">
 					  <h4 class="testimonial-person-h">Dean Nillstorm</h4>
 					  <p class="testimonial-person-p">“Nowadays it is not so easy to find really good, tasty, and natural honey. I first tried the HoneyBee honey several years ago, and since then I have been a regular customer of this producer. I know for sure that these guys work with feeling and sell real honey from their swaths. I am always happy with the product I receive"</p>          
@@ -39,9 +39,15 @@
 	  firstSlide = firstSlide + 1 >= slides.length ? 0 : firstSlide + 1;
 	  showCurrentSlide();
 	}
+
+	function prevSlide() {
+		currentSlide--;
+		if (currentSlide < 0) currentSlide = slides.length - 1;
+		showCurrentSlide();
+	}
   
   
-	setInterval(nextSlide, 2000);
+	//setInterval(nextSlide, 2000);
   
 	function resize() {
 	  console.log(window.screen.width);
@@ -54,6 +60,9 @@
 	}
    
 	window.addEventListener('resize', resize);
+	
+	document.querySelector('.next').addEventListener('click', nextSlide);
+	document.querySelector('.prev').addEventListener('click', prevSlide);
   
   })();
 
