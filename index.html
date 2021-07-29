@@ -74,7 +74,7 @@
             <img  src="img/chris/honeyhiveandperson.webp" alt="Honey hive and person">
             </div>
             <div class="whychooseustext">
-            <h4 class="whychooseusheader"> Why Choose Us</h4>
+            <h4 class="whychooseusheader">WHY CHOOSE US</h4>
             <h2 class = "whychooseusbigheader">ABOUT BEEHONEY</h2>
             <div class="bar"></div>
             <p>We are a family-owned business managing 5+ swaths in California. We bottle our honey with love and care.</p>
@@ -96,6 +96,7 @@
         </div>
         </section> 
         <section class="howhoneyismade">
+            <svg class="playbutton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 99.999" enable-background="new 0 0 100 99.999" xml:space="preserve" style="max-width:100%" height="100%"><polygon fill="currentColor" points="35.783,69 35.783,29 69,49.143 " style=""></polygon></svg>
             <h2 class="howhoneyismadeheader">How Honey Is Made</h2>
             <!--<iframe src="https://www.youtube.com/embed/JLF9TCVzw7A" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>-->
             </iframe>
@@ -235,7 +236,7 @@
         <!--Yulia -->
         <!--How to order-->
         <img class="honey-img" src="img/how-to-order/honey.webp" alt="honey">
-        <section class="order1">
+        <section class="order-container">
             <div class="order-first-div">
                 <h2 class="order-text">HOW TO ORDER</h2>
                 <p class="order-subtitle">WANT TO ORDER HONEY?</p> 
@@ -269,12 +270,21 @@
         
         <nav class="testimonials-container">
           <div class="testimonials-text">
-          <h2 class="testimonials-h2">TESTIMONIALS</h2>
+          <h2 class="testimonials-h2" id="testimonials">TESTIMONIALS</h2>
 	      <h3 class="testimonials-h3">WHAT OUR CLIENTS SAY</h3>
                 <p class="testimonials-paragraph">
                     We are glad that our honey is to our clients' liking. Your reviews and warm words of appreciation make us better! 
                 </p>
             </div>
+
+            <div class="testimonials-block">
+                <div><button class="btn btn-primary prev">Prev</button></div>
+                <div class="slides"></div>
+                <div><button class="btn btn-primary next">Next</button></div>
+            </div>
+                
+           
+            </nav>
 
             <!--
 
@@ -305,14 +315,14 @@
                 </div>
                 <button class="btn btn-primary next">Next</button>
             </div>
-        </nav>  -->
+        </nav>  
         <div>
             <div><button class="btn btn-primary prev">Prev</button></div>
             <div>
                 <img class="current-slide d-block w-50 mx-auto " src="img/testimonials-people/tsm1.webp" alt="Person">
             </div>
             <div><button class="btn btn-primary next">Next</button></div>     
-        </div>
+        </div>-->
     
 
         <!--
@@ -464,7 +474,7 @@
        <!--Gallery--> 
        <div>
             <p class="gallery">
-             <img class="gallery-img1" src="img/gallery/man-with-bees.jpg" alt="man with bees">
+             <img class="gallery-img" src="img/gallery/man-with-bees.jpg" alt="man with bees">
              <img class="gallery-img" src="img/gallery/bees.jpg" alt="bees">
              <img class="gallery-img" src="img/gallery/woman-with-honeycombs.jpg" alt="woman with honeycombs">   
              <img class="gallery-img" src="img/gallery/fields-with-bees.jpg" alt="fields with bees">  
@@ -473,15 +483,16 @@
     </main>
 
     <!--added footer(Chris)-->
-    <footer class="footerbackground">
+    <footer class="footercontainer">
+        <div class=footer>
             <div>
             <a href="index.html">
             <img src="https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a598d86b355600215451a2" alt="bee logo">
             </a>
             </div>
-    <h3>Honey Production Company</h3>
+    <h6 class="footerheader">Honey Production Company</h6>
     <nav>
-        <div class="menu">
+        <div class="footermenu">
             <a href="#about">About Us</a>
             <a href="#honey-types">Types of Honey</a>
             <a href="#store">Store</a>
@@ -489,15 +500,20 @@
             <a href="#contacts">Contact Us</a>
         </div>
         
-        <div>
+        <div class=footersocial>
             <!--images cannot be coppied from weblium-->
             <a href="facebook.com">Facebook</a>
             <a href="instagram.com">Instagram</a>
             <a href="youtube.com">Youtube</a>
+        </div>      
+        <div class="footercreatedby">
+        <p>© Created by </p>
+        <p class="team1"> TEAM 1 </p>
+        <p> All rights Reserved</p>
         </div>
-        <p>© Created by</p>
-        <p>All rights Reserved</p>
+        <p class="datetime"> <span id="datetime"></span></p>
     </nav>
+    </div>
     </footer>
 
 </body>
@@ -508,4 +524,5 @@
 <script src="js/countdown.js"></script>
 <script src="js/accordion.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/time.js"></script>
 </html>
