@@ -683,6 +683,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   background-image:url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a617f31c2df50021f0a63c_optimized);
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 850px;
 }
 .whychooseusimage{
   display: flex;
@@ -697,15 +698,19 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 .whychooseusheader{
   color: #eb6d2f;
-  font-size: 20px;
+  font-size: 15px;
   flex-direction: column;
+  font-weight: bold;
 }
 .whychooseusbigheader{
   color: #552c2c;
   font-size: 50px;
+  font-weight: bold;
 }
 .whychooseusheaderbrown{
   color: #552c2c;
+  font-weight: bold;
+  font-size: 25px;
 }
 @media (min-width: 767px){
   .whychooseussection{
@@ -725,9 +730,36 @@ background-size: cover;
   color: white;
   text-align: center;
 }
-.footerbackground{
+.footercontainer{
   background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6253e05e9ab0021e6d36f_optimized_2327.webp);
   background-size: cover;
   min-height: 350px;
   background-repeat: no-repeat;
+  text-align: center;
+}
+.footerheader{
+  color: grey;
+  font-weight:bold;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footermenu{
+  display:flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.footersocial{
+
+}
+.footercreatedby{
+  display:flex;
+  justify-content:center;
+  color:grey;
+}
+.team1{
+  font-weight:bold;
+  color:grey;
 }
