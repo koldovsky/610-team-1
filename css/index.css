@@ -210,7 +210,7 @@ header div .button:hover {
   background-color: var(--background);
 }
 
-@media (min-width: 650px) {
+@media (min-width: 767px) {
   .order2 {
     flex-direction: row;
   }
@@ -310,6 +310,13 @@ header div .button:hover {
   content: "\2796";
 }
 
+@media (max-width:767px){
+  .faq-section{
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: 1fr 1fr;
+  }
+}
 /* Section: 'Contact us' */
 .contacts-h2 {
   color: var(--hover-color);
@@ -407,6 +414,16 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .quote-submit:hover {
   background-color: rgb(248, 187, 20);
   color: white;
+}
+
+@media (max-width:767px){
+  .contacts-us {
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  display: block;
+  }
 }
 
 /* Section: 'Gallery' */
