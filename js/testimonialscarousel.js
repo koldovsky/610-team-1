@@ -41,7 +41,7 @@
 	}
 
 	function prevSlide() {
-		firstSlide = firstSlide - 1 === 0 ? 0 : firstSlide + 1;
+		firstSlide = firstSlide - 1 > 0 ? 0 : firstSlide + 1;
 		showCurrentSlide();
 	  }
   
