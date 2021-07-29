@@ -549,6 +549,10 @@ input[type="text"], input[type="tel"], input[type="email"] {
   margin-bottom: 10%;
 }
 
+.testimonials-container{
+
+}
+
 .testimonials-text{
   display: flex;
   align-items: center;
@@ -618,13 +622,13 @@ input[type="text"], input[type="tel"], input[type="email"] {
   margin-right: auto;
   margin-top: 5%;
 }
-
+/*
 @media (min-width: 767px){
   .testimonials-elements{
     flex-direction: row;
   }
 }
-
+*/
 .person-one{
   background-color: #663B36;
   margin: auto;
@@ -651,9 +655,14 @@ input[type="text"], input[type="tel"], input[type="email"] {
   flex-direction: column;
 }
 
+.slides{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .testimonials-block{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 10% 80% 10%;
 }
 
 .sale-container{
