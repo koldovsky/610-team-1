@@ -651,6 +651,11 @@ input[type="text"], input[type="tel"], input[type="email"] {
   flex-direction: column;
 }
 
+.slides{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .testimonials-block{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
