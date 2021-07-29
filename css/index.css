@@ -451,6 +451,8 @@ input[type="text"], input[type="tel"], input[type="email"] {
   .gallery{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -702,23 +704,21 @@ input[type="text"], input[type="tel"], input[type="email"] {
 /*Chris added some CSS*/
 .whychooseussection{
   display: flex;
-  flex: 2;
   flex-direction: column;
   background-image:url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a617f31c2df50021f0a63c_optimized);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 850px;
+  justify-content: center;
 }
 .whychooseusimage{
-  display: flex;
-  align-self:flex-start;
-  flex:1;
+  display:block;
+  align-self: center;
 }
 .whychooseustext{
   display: flex;
-  align-self:flex-end;
-  flex:2;
   flex-direction: column;
+  justify-content: center;
 }
 .whychooseusheader{
   color: #eb6d2f;
