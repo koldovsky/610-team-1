@@ -41,11 +41,9 @@
 	}
 
 	function prevSlide() {
-		currentSlide--;
-		if (currentSlide < 0) currentSlide = slides.length - 1;
+		firstSlide = firstSlide - 1 === 0 ? 0 : firstSlide + 1;
 		showCurrentSlide();
-	}
-  
+	  }
   
 	//setInterval(nextSlide, 2000);
   
