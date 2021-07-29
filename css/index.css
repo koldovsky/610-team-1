@@ -555,14 +555,12 @@ input[type="text"], input[type="tel"], input[type="email"] {
   flex-direction: column;
   justify-content: space-between;
   justify-content: space-around;
-  margin-bottom: 3em;
 }
 
 .testimonials-h2{
   color: #F7BD00;
   font-size: 14px;
   font-weight: bold;
-  margin-top: 6em;
 }
 
 .testimonials-h3{
@@ -599,14 +597,13 @@ input[type="text"], input[type="tel"], input[type="email"] {
   font-size: 16px;
   padding: 5%;
   text-align: center;
-  margin-bottom: -5em;
 }
 
 .testimonial-person-p-2{
   color: #FFF;
   font-size: 14px;
   font-weight: bold;
-  padding: 40%;
+  padding: 10px;
   text-align: center;
 }
 
