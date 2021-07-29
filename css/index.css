@@ -417,7 +417,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 @media (max-width:767px){
-  .contacts-us {
+  .contacts-us, .contacts-form {
   display: grid;
   grid-template-columns: none;
   grid-template-rows: 1fr 1fr;
