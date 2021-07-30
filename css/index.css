@@ -766,7 +766,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .map-contacts{
-  height: 500px;
+  height: 600px;
   width: 100%;
 }
 
@@ -777,7 +777,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   background-image:url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a617f31c2df50021f0a63c_optimized);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 850px;
+  min-height: 700px;
   justify-content: center;
 }
 .whychooseusimage img{
@@ -823,7 +823,7 @@ display:flex;
 flex-direction: column;
 }
 .howhoneyismadeheader{
-  color: white;
+  color:#e96625;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -900,11 +900,11 @@ flex-direction: column;
 }
 .playbutton{
   color: #eb6d2f;
-  width: 150px;
+  width: 100px;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  border: 15px solid black;
+  border: 5px solid black;
   border-radius: 50%;
 }
 .playbutton:hover{
