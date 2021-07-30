@@ -601,7 +601,9 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .testimonials-container{
-
+  background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6327480a13d0021b9f969_optimized);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .testimonials-text{
