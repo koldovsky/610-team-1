@@ -780,9 +780,10 @@ input[type="text"], input[type="tel"], input[type="email"] {
   min-height: 850px;
   justify-content: center;
 }
-.whychooseusimage{
+.whychooseusimage img{
   display:block;
   align-self: center;
+  width: 100%;
 }
 .whychooseustext{
   display: flex;
@@ -890,8 +891,8 @@ flex-direction: column;
 .footermenu a:hover{
   color:#eb6d2f;
 }
-.footersocial a:hover{
-  color:#eb6d2f;
+.outer_bDW:hover{
+  color:green;
 }
 .team1:hover{
   color:#eb6d2f;
