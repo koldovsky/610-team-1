@@ -822,8 +822,13 @@ flex-direction: column;
   justify-content: space-around;
 }
 .footersocial{
-  color:#663B36;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100px;
   margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footercreatedby{
   display:flex;
