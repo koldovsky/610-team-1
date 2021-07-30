@@ -148,6 +148,7 @@ header div .button:hover {
 
 .order-container{
   background-color:#f7bd00;
+  padding-bottom: 100px;
 }
 .order-text {
   text-align: center;
@@ -158,6 +159,8 @@ header div .button:hover {
   align-items: center;
   flex-direction: column;
   margin: 0rem;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .order-text-h3{
@@ -168,6 +171,8 @@ header div .button:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .order-text-top-p {
@@ -175,6 +180,8 @@ header div .button:hover {
   color: var(--main-color);
   font-size: 17px;
   font-weight: bold;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .order-text-p {
@@ -182,6 +189,9 @@ header div .button:hover {
   color: var(--main-color);
   font-size: 17px;
   font-weight: bold;
+  justify-content: space-between;
+  justify-content: space-around;
+  font-weight: lighter;
 }
 
 .order-subtitle {
@@ -192,6 +202,8 @@ header div .button:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .order2 {
@@ -199,33 +211,47 @@ header div .button:hover {
   align-items: center;
   flex-direction: column;
   background-color:#f7bd00;
+  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .bee-with-flower {
-  width: 300px;
+  width: 250px;
   display: flex;
   align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .bees-with-a-bowl-of-honey {
-  width: 300px;
+  width: 250px;
   display: flex;
   align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .bee-with-a-bowl-of-honey {
-  width: 300px;
+  width: 250px;
   display: flex;
   align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .honey-img {
@@ -575,7 +601,9 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .testimonials-container{
-
+  background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6327480a13d0021b9f969_optimized);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .testimonials-text{
