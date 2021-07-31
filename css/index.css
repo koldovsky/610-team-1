@@ -296,12 +296,14 @@ header .top-nav {
 /* Section: 'FAQ' */
 
 .faq-section {
-  background: var(--background);
+  background-image: url(../img/faq/faq-background-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  padding: 13px 150px;
+  padding: 80px 150px;
 }
 
 .faq-img {
