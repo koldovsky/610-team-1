@@ -684,13 +684,14 @@ input[type="text"], input[type="tel"], input[type="email"] {
   margin-right: auto;
   margin-top: 5%;
 }
-/*
+
 @media (min-width: 767px){
-  .testimonials-elements{
-    flex-direction: row;
+  .current-slide{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   }
 }
-*/
+
 .person-one{
   background-color: #663B36;
 }
