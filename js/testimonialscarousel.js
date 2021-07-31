@@ -1,7 +1,7 @@
 (function() {
 
 	const slides = [
-	    `<div class="person-one person-tes current-slide">
+	    `<div class="person-one person-tes">
 			<img src="img/testimonials-people/tsm2.webp" alt="Portrait1" class="testimonials-image">
 			<h4 class="testimonial-person-h">Jessica Peterson</h4>
 			<p class="testimonial-person-p">“This is great honey, 100% natural! It is not the first time I order honey from this company, and every time I know that I will get delicious, high-quality, not crystallized honey. I use honey as a topping for pancakes, various desserts, and marinades. It is delicious and my children also like this honey!"</p>
