@@ -621,6 +621,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   color: #F7BD00;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 90px;
 }
 
 .testimonials-h3{
@@ -630,7 +631,10 @@ input[type="text"], input[type="tel"], input[type="email"] {
 
 .testimonials-paragraph{
   font-size: 16px;
-  color: #FFFFFF
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+  padding: auto;
 }
 
 .testimonials-elements{
@@ -715,6 +719,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .testimonials-block{
   display: grid;
   grid-template-columns: 10% 80% 10%;
+  gap: 30px 30px;
 }
 
 .sale-container{
