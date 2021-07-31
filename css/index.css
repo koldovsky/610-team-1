@@ -719,7 +719,9 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .testimonials-block{
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  gap: 30px 30px;
+  gap: 30px;
+  box-sizing: border-box;
+  row-gap: 30px;
 }
 
 .sale-container{
