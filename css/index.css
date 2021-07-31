@@ -684,7 +684,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     flex-direction: row;
   }
 }
-*/
+
 .person-one{
   background-color: #663B36;
   margin: auto;
@@ -710,7 +710,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   justify-content: space-around;
   flex-direction: column;
 }
-
+*/
 .slides{
   display: grid;
   grid-template-columns: 1fr 1fr;
