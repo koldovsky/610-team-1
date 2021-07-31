@@ -687,14 +687,17 @@ input[type="text"], input[type="tel"], input[type="email"] {
 */
 .person-one{
   background-color: #663B36;
+  height: 500px;
 }
 
 .person-two{
   background-color: #663B36;
+  height: 500px;
 }
 
 .person-three{
   background-color: #663B36;
+  height: 500px;
 }
 
 .current-slide{
