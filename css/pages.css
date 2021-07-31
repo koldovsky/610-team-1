@@ -9,98 +9,57 @@
 /* Header css was copied from Anna's part */
 
 .banner {
-  background-image: url(../img/cover.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  max-height: 500px;
- }
-
+background-image: url(../img/cover.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+height: 800px;
+}
 header .logo img{
-  width: 200px;
-  height: auto;
+width: 200px;
+height: auto;
 }
 
 .burger-icon {
-  font-size: 2.5rem;
-  padding-left: 200px;
-  align-items: left;
-  cursor: pointer;
+font-size: 2.5rem;
+padding-left: 200px;
+align-items: left;
+cursor: pointer;
+}
+#burger-checkbox {
+display: none;
+align-items: center;
+padding-bottom: 15px;
+height: auto;
 }
 
-#burger-checkbox {
-  display: none;
-  align-items: center;
-  padding-bottom: 15px;
-}
 header .menu {
-  padding: 50px;
-  display: none;
-  font-weight: bold;
-  background-color: var(--background); 
+padding: 50px;
+display: none;
+font-weight: bold;
+background-color: var(--background); 
 }
 
 input:checked ~ .menu {
-  display: block;  
+display: block;  
 } 
 @media (min-width: 700px) {
-
-  .burger-icon {
-      display: none;}
+.burger-icon {
+    display: none;}
 } 
-
-header .menu a {
-  display: block;
-  text-decoration: none;
-  color: var(--main-color);
-  text-align: center;
-  margin-left: 30px;
+header .menu a{
+display: block;
+text-decoration: none;
+color: var(--main-color);
+text-align: center;
+margin-left: 30px;
 }
+
 
 header .menu a:hover{
-  color: var(--hover-color);
-  
-}
-.organictitle {
-  font-size: 16px;
-  color: var(--hover-color);
-  text-align: left;
-  padding-top: 40px;
-}
-.maintitle {
-  font-size: 70px;
-  font-weight: bold;
-  color: var(--main-color);
-  text-transform: uppercase;
-}
-header div .button{
-  background-color: var(--hover-color);
-  color: white; 
-  text-decoration: none;
-  font-weight: bold;
-  padding: 15px 25px;
-  border-radius:10px;
-  
-}
-header div .button:hover {
-  background-color: rgb(248, 187, 20);
-  color: white;
+color: var(--hover-color);
 }
 
-@media (min-width: 767px) {
-  header .top-nav{
-    display: flex;
-    align-items: center; 
-  }
-  header nav .menu {
-    display: flex;
-    flex: 1; 
-    align-items: baseline;   
-    justify-content: flex-end;
-    padding-left: 15px;
-    margin-left:20px;
-  }
-}
 
   /* Main block */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -143,4 +102,76 @@ header div .button:hover {
 
 .store-homepage-link{
   text-decoration: none;
+}
+
+.footercontainer{
+  background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6253e05e9ab0021e6d36f_optimized_2327.webp);
+  background-size: cover;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.footerheader{
+  color: grey;
+  font-weight:bold;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footermenu{
+  display:flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.footersocial{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100px;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footercreatedby{
+  display:flex;
+  justify-content:center;
+  color:grey;
+  
+}
+.team1{
+  font-weight:bold;
+  color:grey;
+}
+@media (max-width: 767px){
+  .footermenu{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footermenu a {
+  color:#663B36;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+.footersocial a {
+  color:#663B36;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footermenu a:hover{
+  color:#eb6d2f;
+}
+.outer_bDW:hover{
+  color:green;
+}
+.team1:hover{
+  color:#eb6d2f;
+  transition: 01s ease-out;
 }
