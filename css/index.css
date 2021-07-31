@@ -687,7 +687,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 @media (min-width: 767px){
-  .current-slide{
+   .slides{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   }
@@ -699,8 +699,6 @@ input[type="text"], input[type="tel"], input[type="email"] {
 
 .current-slide{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px 30px;
   box-sizing: border-box;
 }
 .slides{
