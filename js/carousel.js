@@ -1,5 +1,5 @@
 (function () {
-    const slides = [productsJson]; 
+    const slides = products; 
 
 let currentSlide = 0;
 function showCurrentSlide() {

@@ -1,141 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
 
+
 /* Anna added */
 :root {
-    font-family: 'Signika Negative', sans-serif;
-    margin: 0;
-    padding: 0;
-    --main-color:rgb(90, 55, 51);
-    --hover-color: #eb6d2f;
-    --background: #F9F4F0;
+  font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+  --main-color:rgb(90, 55, 51);
+  --hover-color: #eb6d2f;
+  --background: #F9F4F0;
 }
 
 body{
-  max-width: 100%;
-  margin: auto;
+max-width: 100%;
+margin: auto;
 }
 
-.top-nav {
-
-  display: flex;
-    align-items: center;
-  padding: 13px 150px;
+.banner {
+background-image: url(../img/cover.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+height: 800px;
 }
-
 header .logo img{
-  width: 200px;
-  height: auto;
+width: 200px;
+height: auto;
 }
 
 .burger-icon {
-  font-size: 2.5rem;
-  padding-left: 200px;
-  align-items: left;
-  cursor: pointer;
+font-size: 2.5rem;
+padding-left: 200px;
+align-items: left;
+cursor: pointer;
+}
+#burger-checkbox {
+display: none;
+align-items: center;
+padding-bottom: 15px;
+height: auto;
 }
 
-#burger-checkbox {
-  display: none;
-  align-items: center;
-  padding-bottom: 15px;
-}
 header .menu {
-  display: flex;
-  padding: 50px;
-  display: none;
-  font-weight: bold;
-  background-color: var(--background); 
+padding: 50px;
+display: none;
+font-weight: bold;
+background-color: var(--background); 
 }
 
 input:checked ~ .menu {
-  display: block;  
+display: block;  
 } 
 @media (min-width: 700px) {
-
-  .burger-icon {
-      display: none;}
+.burger-icon {
+    display: none;}
 } 
-
-header .menu a {
-  display: block;
-  text-decoration: none;
-  color: var(--main-color);
-  text-align: center;
-  margin-left: 30px;
+header .menu a{
+display: block;
+text-decoration: none;
+color: var(--main-color);
+text-align: center;
+margin-left: 30px;
 }
+
 
 header .menu a:hover{
-  color: var(--hover-color);
-  
+color: var(--hover-color);
 }
 
-@media (min-width: 350px) {
-  header .top-nav{
-    display: flex;
-    align-items: center;
-      
-  }
-  header nav .menu {
-    display: flex;
-    flex: 1; 
-    align-items: center;   
-    justify-content: flex-end;
-    padding-left: 15px;
-    margin-left:20px;
-  }
-}
+
 /* honney section */
 .honeybee-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  padding: 13px 200px;
-}
-.banner {
-  background-image: url(../img/cover.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: 800px;
- }
-
-.organictitle {
-  font-size: 16px;
-  color: var(--hover-color);
-  text-align: left;
-  padding-top: 180px;
-}
-.maintitle {
-  font-size: 70px;
-  font-weight: bold;
-  color: var(--main-color);
-  text-transform: uppercase;
-  }
-.phoney{
-  padding-bottom: 20px;
-}
-header div .button{
-  background-color: var(--hover-color);
-  color: white; 
-  text-decoration: none;
-  font-weight: bold;
-  padding: 15px 25px;
-  border-radius:10px;  
-}
-header div .button:hover {
-  background-color: rgb(248, 187, 20);
-  color: white;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+align-items: center;
+padding: 13px 200px;
 }
 @media (max-width:767px){
-  .honeybee-section{
-  display: grid;
-  grid-template-columns: none;
-  grid-template-rows: 1fr 1fr;
-  }
+.honeybee-section{
+display: grid;
+grid-template-columns: none;
+grid-template-rows: 1fr 1fr;
+}
+}
+
+
+.organictitle {
+font-size: 16px;
+color: var(--hover-color);
+text-align: left;
+padding-top: 180px;
+}
+.maintitle {
+font-size: 70px;
+font-weight: bold;
+color: var(--main-color);
+text-transform: uppercase;
+}
+.phoney{
+padding-bottom: 20px;
+}
+header div .button{
+background-color: var(--hover-color);
+color: white; 
+text-decoration: none;
+font-weight: bold;
+padding: 15px 25px;
+border-radius:10px;  
+}
+header div .button:hover {
+background-color: rgb(248, 187, 20);
+color: white;
+}
+
+@media (min-width: 700px) {
+header .top-nav{
+  display: flex;
+  align-items: center;
+padding: 0px 0px;
+    
+}
+header nav .menu {
+  display: flex;
+  flex: 1; 
+  align-items: baseline;   
+  justify-content: flex-end;
+  padding-left: 15px;
+  margin-left:20px;
+}
+}
+header .top-nav {
+  display: flex;
+    align-items: center;
+  padding: 13px 100px;
+  justify-content: center;
 }
 
 /* Anna end */
+
 
 .video{
   width: 560px;
