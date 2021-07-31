@@ -691,36 +691,32 @@ input[type="text"], input[type="tel"], input[type="email"] {
 */
 .person-one{
   background-color: #663B36;
-  height: 500px;
 }
 
 .person-two{
   background-color: #663B36;
-  height: 500px;
 }
 
 .person-three{
   background-color: #663B36;
-  height: 500px;
 }
 
 .current-slide{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  justify-content: space-around;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 30px;
+  box-sizing: border-box;
 }
 .slides{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px 30px;
+  box-sizing: border-box;
 }
 
 .testimonials-block{
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  gap: 30px 30px;
-  box-sizing: border-box;
 }
 
 .sale-container{
