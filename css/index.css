@@ -793,6 +793,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   flex-direction: column;
   justify-content: center;
 }
+
 .whychooseusheader{
   color: #eb6d2f;
   font-size: 15px;
@@ -852,6 +853,8 @@ flex-direction: column;
   display:flex;
   justify-content: space-between;
   justify-content: space-around;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .footersocial{
   display: flex;
@@ -884,7 +887,7 @@ flex-direction: column;
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 .footersocial a {
   color:#663B36;
@@ -909,10 +912,17 @@ flex-direction: column;
   margin-top: auto;
   border: 5px solid black;
   border-radius: 50%;
+  fill: currentColor;
 }
 .playbutton:hover{
   color: white;
   transition: 05s ease-out;
+}
+.whychooseuscolumns img{
+  float: left;
+}
+.whychooseuscolumns{
+  margin: 40px 40px 40px 40px;
 }
 
 /*:root {
