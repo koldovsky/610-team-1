@@ -46,6 +46,7 @@ padding: 50px;
 display: none;
 font-weight: bold;
 background-color: var(--background); 
+
 }
 
 input:checked ~ .menu {

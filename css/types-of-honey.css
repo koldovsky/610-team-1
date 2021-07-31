@@ -6,11 +6,19 @@
     padding-top: 20px;
     text-transform: uppercase;
 }
+.h-title-types-nav{
+        font-size: 17px;
+        color: var(--hover-color);
+        text-align: left;
+        font-weight: bold;
+        padding-top: 20px;
+     text-transform: uppercase;
+}
 .subtitle-types{
-    font-size: 40px;
+    font-size: 45px;
     color: var(--main-color);
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -27,12 +35,23 @@
     font-weight: bold;
 }
 .store-honey {
-    background-color:#F9F4F0 ;
+    background-color:#F9F4F0;
+    display: grid; 
+    grid-template-columns:auto;
+    align-items: center;
 
 }
-.types {
-    background-color:#F9F4F0 ; 
+.hslide{
+    align-items: center;
 }
+.types {
+    background-image: url(../img/type_optimized.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: auto;
+    min-height: 700px;
+    }
 img{
     width: 100px;
     height: auto;
@@ -45,6 +64,7 @@ section div div .button-outline-button{
     font-weight: bold;
     padding: 15px 25px;
     border-radius:10px;
+    width: 130px;
 }
 section div div .button-outline-button:hover {
     background-color: rgb(248, 187, 20);
@@ -52,16 +72,18 @@ section div div .button-outline-button:hover {
 }
 /* check block*/
 
-section .check{
+section .check {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
 section div .check-icon {
     height: 25px;
     width: auto;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 /* carusel block types*/
@@ -73,34 +95,41 @@ section div .check-icon {
     justify-content: space-around;
     flex-direction: column;  
 }
+.subtitle-types-bar-nav{
+    align-items: flex-start;
+}
 
-.carousel-one {
-    display: flex;
+/*.carousel-one {
+    display: grid;
     align-items: center;
     justify-content: space-between;
     justify-content: space-around;
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
     padding: 15px;
-}
+}*/
 
 .img-carousel-one {
-min-width: 350px;
+min-width: 250px;
 
 }
 section div .slide-honey{
     display: grid; 
-    flex-direction: column;  
     align-items: center;
     background-color:white;  
     margin-left:15px;
     margin-right: auto; 
     max-width: 400px;
     border-radius:15px;
-    }
-
+}
 @media (max-width: 650px){
     .carousel-one {
-        grid-template: row; }
+        grid-template-columns: none;
+        grid-template-rows: 1fr ; }
+}
+.block{
+    display: grid;
+    grid-column-start: 2;
+    grid-template-columns: 10% 80% 10%;
 }
 .blocktyes {
     background: var(--background);
@@ -108,17 +137,24 @@ section div .slide-honey{
     grid-template-columns: 1fr 2fr;
     align-items: center;
     padding: 13px 150px;
-  
     justify-content: space-around;
     flex-direction: column;  
-    
   }
+  @media (max-width: 650px){
+    .blocktyes {
+        grid-template-columns: none;
+        grid-template-rows: 1fr ; }
+}
   .block-chec{
     display: grid;
-  }
-  .carousel-one{
-      display: grid;
-  }
+}
+.block-chec{
+    display: grid;
+}
+  .slidestype{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
   
 
 /* carusel shop*/

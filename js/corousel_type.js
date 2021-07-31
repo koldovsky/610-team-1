@@ -1,71 +1,71 @@
 (function() {
 
-    const slides = [
-        `<div class="slide-honey">
+    const slidestype = [
+    `<div class="slide-honey">
       <img class="img-carousel-one" src="img/img-ann/icon-clover-honey.svg" alt="icon-clover-honey">
-      <h4>Clover Honey</h4>
+      <h4 class="hslide">Clover Honey</h4>
       <p class="text-carusel-one">Thick honey is produced by honeybees that collect the nectar of clover plants. Mild in taste and light in color. </p>
       <a href="#store" class="button-outline-button">Shop Now</a>
-  </div>`,
-  `<div class="slide-honey">
+  	</div>`,
+  	`<div class="slide-honey">
       <img class="img-carousel-one" src="img/img-ann/icon-buckwheat-honey.svg" alt="icon-buckwheat-honey">
       <h4>Buckwheat Honey</h4>
       <p class="text-carusel-one">It is highly nutritious amber-colored honey with a slight reddish tint. It has a has a pleasant sweet taste. </p>
       <a href="#store" class="button-outline-button">Shop Now</a>
-  </div>`,
-  `<div class="slide-honey">
+  	</div>`,
+  	`<div class="slide-honey">
       <img class="img-carousel-one" src="img/img-ann/icon-wildflower-honey.svg" alt="icon-wildflower-honey">
       <h4>Wildflower Honey</h4>
       <p class="text-carusel-one">It is also known as polyfloral honey. It is made from the nectar of different species of flowers or blossoms. </p>
       <a href="#store" class="button-outline-button">Shop Now</a>
-  </div>`,
-  `<div class="slide-honey">
-      <img class="img-carousel-one"  src="img/img-ann/icon-blossom-honey.svg" alt="icon-blossom-hone">
-      <h4>Citrus Blossom Honey</h4>
-      <p class="text-carusel-one">This honey is sweet and relatively thick, a perfect match for your tea or toast. It is the best association with California! </p>
-      <a href="#store" class="button-outline-button">Shop Now</a>
-  </div>`
+ 	</div>`,
+	  `<div class="slide-honey">
+		<img class="img-carousel-one"  src="img/img-ann/icon-blossom-honey.svg" alt="icon-blossom-hone">
+		<h4>Citrus Blossom Honey</h4>
+		<p class="text-carusel-one">This honey is sweet and relatively thick, a perfect match for your tea or toast. It is the best association with California! </p>
+		<a href="#store" class="button-outline-button">Shop Now</a>
+  	</div>`
 ];
   
-let firstSlide = 1;
-	let slidesToShow = 2;
+let firstSlidetype = 1;
+	let slidestypeToShow = 2;
   
-	function showCurrentSlide() {
-	  const slidesContainer = document.querySelector('.slides');
-	  let slideIdx = firstSlide;
+	function showCurrentSlidetype() {
+	  const slidestypeContainer = document.querySelector('.slidestype');
+	  let slidetypeIdx = firstSlidetype;
 	  let html = '';
-	  for (let i = 1; i <= slidesToShow; i++) {
-		html += slides[slideIdx];
-		slideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
+	  for (let i = 1; i <= slidestypeToShow; i++) {
+		html += slidestype[slidetypeIdx];
+		slidetypeIdx = slidetypeIdx + 1 >= slidestype.length ? 0 : slidetypeIdx + 1;
 	  }
-	  slidesContainer.innerHTML = html;
+	  slidestypeContainer.innerHTML = html;
 	}
   
-	function nextSlide() {
-	  firstSlide = firstSlide + 1 >= slides.length ? 0 : firstSlide + 1;
-	  showCurrentSlide();
+	function nextSlidetype() {
+	  firstSlidetype = firstSlidetype + 1 >= slidestype.length ? 0 : firstSlidetype + 1;
+	  showCurrentSlidetype();
 	}
 
-	function prevSlide() {
-		firstSlide = firstSlide - 1 > 0 ? 0 : firstSlide + 1;
-		showCurrentSlide();
-	  }
-  
-	//setInterval(nextSlide, 0);
+	function prevSlidetype() {
+		firstSlide = firstSlidetype - 1 > 0 ? 0 : firstSlidetype + 1;
+		showCurrentSlidetype();
+	}
   
 	function resize() {
 	  console.log(window.screen.width);
-	  if (window.screen.width <= 500) {
-		slidesToShow = 1;
+	  if (window.screen.width <= 300) {
+		slidestypeToShow = 1;
 	  } else {
-		slidesToShow = 2;
+		slidestypeToShow = 2;
 	  }
-	  showCurrentSlide();
+	  showCurrentSlidetype();
 	}
    
 	window.addEventListener('resize', resize);
+	showCurrentSlidetype();
 	
-	document.querySelector('.next').addEventListener('click', nextSlide);
-	document.querySelector('.prev').addEventListener('click', prevSlide);
+	document.querySelector('.nextt').addEventListener('click', nextSlidetype);
+	document.querySelector('.prevv').addEventListener('click', prevSlidetype);
   
   })();
+
