@@ -636,7 +636,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   font-size: 16px;
   color: #FFFFFF;
   text-align: center;
-  margin: auto;
+  margin-bottom: 50px;
   padding: auto;
 }
 
@@ -713,6 +713,22 @@ input[type="text"], input[type="tel"], input[type="email"] {
   display: grid;
   grid-template-columns: 10% 80% 10%;
   margin-bottom: 50px
+}
+
+.arrow-left{
+ border-left: 0.5rem solid #D4AC0D; 
+ border-bottom: 0.5rem solid #D4AC0D;
+ width:2rem;
+ height: 2rem;
+ transform: rotate(45deg);
+}
+
+.arrow-right{
+ border-left: 0.5rem solid #D4AC0D; 
+ border-bottom: 0.5rem solid #D4AC0D;
+ width:2rem;
+ height: 2rem;
+ transform: rotate(225deg);
 }
 
 .sale-container{
