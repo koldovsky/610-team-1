@@ -119,6 +119,7 @@ color: var(--hover-color);
   text-decoration: none;
   color: #ffd832;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .green-head{
@@ -166,6 +167,7 @@ color: var(--hover-color);
   border: none;
   border-radius: 3px;
   width: 45%;
+  max-height: 30px
 }
 
 .quote-submit:hover {
