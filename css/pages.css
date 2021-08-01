@@ -66,10 +66,14 @@ color: var(--hover-color);
   }
 }
 
-
+.addit-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .page-main-part{
-    grid-template-columns: 1fr 1fr;
+
   
   }
 
@@ -89,7 +93,7 @@ color: var(--hover-color);
 }
 
 .page-smal-image{
-  width: 10px;
+  width: 50px;
 }
 
 .store-homepage-link{
