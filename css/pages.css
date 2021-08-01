@@ -157,11 +157,11 @@ color: var(--hover-color);
   margin: 5px 0 20px 0;
   font-size: 19px;
   color: white;
-  background-color: var(--hover-color);
+  background-color: #eb6d2f;
   cursor: pointer;
   border: none;
   border-radius: 3px;
-  width: 70%;
+  width: 45%;
 }
 
 .quote-submit:hover {
