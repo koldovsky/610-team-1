@@ -60,6 +60,10 @@ color: var(--hover-color);
   /* Main block */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width: 767px) {
+  .page-big-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
   .page-main-part{
     display: flex;
     flex-direction: column;
