@@ -2,19 +2,11 @@
 
 :root{
   font-family: 'Signika Negative', sans-serif;
-  max-width:80% ;
   margin: auto;
 }
 
 /* Header css was copied from Anna's part */
 
-.banner {
-background-image: url(../img/cover.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: top;
-height: 800px;
-}
 header .logo img{
 width: 200px;
 height: auto;
