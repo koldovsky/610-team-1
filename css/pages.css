@@ -3,7 +3,7 @@
 :root{
   font-family: 'Signika Negative', sans-serif;
   margin: auto;
-  background-color: #F9F4F0;
+ 
 }
 
 /* Header css was copied from Anna's part */
@@ -72,6 +72,7 @@ color: var(--hover-color);
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: #F9F4F0;
 }
 
 .page-main-part{
