@@ -641,7 +641,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .testimonials-container{
-  background-image: url(..img/testimonials-people/testimonials-background.jpg);
+  background-image: url(../img/testimonials-people/testimonials-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -749,9 +749,9 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .testimonials-block{
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  margin:auto;
+  margin: 0rem;
   padding: auto;
-  background-image: url(..img/testimonials-people/testimonials-background.jpg);
+  background-image: url(../img/testimonials-people/testimonials-background.jpg);
 }
 
 .arrow-left{
