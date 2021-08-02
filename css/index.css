@@ -749,7 +749,6 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .testimonials-block{
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  padding-bottom: 50px;
 }
 
 .arrow-left{
