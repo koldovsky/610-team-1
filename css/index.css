@@ -532,10 +532,11 @@ input[type="text"], input[type="tel"], input[type="email"] {
   margin-right: 20px; 
   margin-left: 20px;
   margin-bottom: 50px; 
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 10px;
 }
+
 @media (max-width: 767px){
   .gallery{
     display: flex;
@@ -544,7 +545,6 @@ input[type="text"], input[type="tel"], input[type="email"] {
     justify-content: center;
   }
 }
-
 
 /* Yulia end */
 
