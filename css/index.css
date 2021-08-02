@@ -962,6 +962,7 @@ flex-direction: column;
 }
 .whychooseuscolumns img{
   float: left;
+  width: 25%;
 }
 .whychooseuscolumns{
   margin: 40px 40px 40px 40px;
