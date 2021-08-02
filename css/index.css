@@ -642,6 +642,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6327480a13d0021b9f969_optimized);
   background-size: cover;
   background-repeat: no-repeat;
+  justify-content: center;
 }
 
 .testimonials-text{
@@ -678,8 +679,9 @@ input[type="text"], input[type="tel"], input[type="email"] {
   justify-content: space-between;
   justify-content: space-around;
   flex-direction: row;
-  margin: auto;
+  margin-top: 40px;
   padding: auto;
+  justify-content: center;
 }
 
 .testimonial-person-h{
