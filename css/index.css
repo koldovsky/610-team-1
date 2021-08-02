@@ -613,7 +613,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     background-color: #F9F4F0;  
     padding: auto;
     margin: auto;
-    margin-top: 30%;
+    margin: 0rem;
 }
 
 .statistics-header{
@@ -772,6 +772,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 
 .sale-container{
   background-color: #F9F4F0;
+  
 }
 
 .sale-text{
