@@ -613,7 +613,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
     background-color: #F9F4F0;  
     padding: auto;
     margin: auto;
-    margin-top: 30%;
+    margin: 0rem;
 }
 
 .statistics-header{
@@ -641,7 +641,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .testimonials-container{
-  background-image: url(..img/testimonials-people/testimonials-background.jpg);
+  background-image: url(../img/testimonials-people/testimonials-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
@@ -749,7 +749,9 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .testimonials-block{
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  margin-bottom: 50px
+  margin: 0rem;
+  padding: auto;
+  background-image: url(../img/testimonials-people/testimonials-background.jpg);
 }
 
 .arrow-left{
@@ -770,6 +772,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 
 .sale-container{
   background-color: #F9F4F0;
+  
 }
 
 .sale-text{
