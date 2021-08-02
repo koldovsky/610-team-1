@@ -612,6 +612,8 @@ input[type="text"], input[type="tel"], input[type="email"] {
 .statistics-flex{
     background-color: #F9F4F0;  
     padding: auto;
+    margin: auto;
+    margin-top: 30%;
 }
 
 .statistics-header{
@@ -639,9 +641,10 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .testimonials-container{
-  background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6327480a13d0021b9f969_optimized);
+  background-image: url(..img/testimonials-people/testimonials-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  justify-content: center;
 }
 
 .testimonials-text{
@@ -678,8 +681,10 @@ input[type="text"], input[type="tel"], input[type="email"] {
   justify-content: space-between;
   justify-content: space-around;
   flex-direction: row;
-  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
   padding: auto;
+  justify-content: center;
 }
 
 .testimonial-person-h{
@@ -704,7 +709,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
   font-weight: bold;
   padding: 10px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20%;
 }
 
 .testimonials-image{
