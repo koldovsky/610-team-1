@@ -1,4 +1,4 @@
-function showAlert(message, success = true) {
+/*function showAlert(message, success = true) {
     const alertTemplate = `<div class="alert ${
               success ? 'alert-success' : 'alert-danger'
           } alert-dismissible fade show" role="alert">
@@ -10,4 +10,4 @@ function showAlert(message, success = true) {
     const bsAlert = new bootstrap.Alert(alertElement);
     setTimeout( () => bsAlert.close(), 2000);
   }
-  
+  */

@@ -1,4 +1,4 @@
-class Cart {
+/*class Cart {
     constructor() {
       this.productService = new ProductsService();
       this.cartContainer = document.querySelector('#store');
@@ -145,4 +145,4 @@ class Cart {
       }
     }
   }
-  
+  */

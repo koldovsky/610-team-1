@@ -40,7 +40,7 @@ let firstSlidetype = 1;
 	  }
 	  slidestypeContainer.innerHTML = html;
 	}
-  
+	
 	function nextSlidetype() {
 	  firstSlidetype = firstSlidetype + 1 >= slidestype.length ? 0 : firstSlidetype + 1;
 	  showCurrentSlidetype();

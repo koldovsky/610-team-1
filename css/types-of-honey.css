@@ -69,14 +69,14 @@
     text-align: center;
     padding: 10px;
 }
-.types {
+/*.types {
     background-image: url(../img/type_optimized.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     width: auto;
-    height: 900px;
-    }
+    height:auto;
+    }*/
 .imgcarouselone{
     max-width: 100px;
     height: auto;
@@ -190,6 +190,7 @@ section div .slide-honey{
 
 /* carusel shop*/
 .carousel-two {
+    margin: 0rem;
     display: flex;
     align-items: center;
     justify-content: center;

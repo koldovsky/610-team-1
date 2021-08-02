@@ -1,4 +1,4 @@
-class ProductList {
+/*class ProductList {
     constructor(cart) {
       this.cart = cart;
       this.container = document.querySelector('.carousel-two ');
@@ -97,4 +97,4 @@ class ProductList {
       window.showAlert('Product added to cart');
     }
   }
-  
+  */
