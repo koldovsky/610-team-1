@@ -1,8 +1,8 @@
 class Cart {
     constructor() {
       this.productService = new ProductsService();
-      this.cartContainer = document.querySelector('#modal-cart');
-      this.cart = JSON.parse(localStorage['cart'] || '{}');
+      this.cartContainer = document.querySelector('#store');
+      this.cart = JSON.parse(localStorage['store'] || '{}');
       this.addEventListeners();
       this.updateBadge();
     }

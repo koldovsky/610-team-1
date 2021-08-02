@@ -1,3 +1,17 @@
+.buttonoutlinebuttontype{
+    background-color: var(--hover-color);
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius:10px;  
+    width: 130px;
+    margin-bottom: 30px;
+    }
+.buttonoutlinebuttontype:hover {
+    background-color: rgb(248, 187, 20);
+    color: white;
+}
 .h-title-types {
     font-size: 17px;
     color: var(--hover-color);
@@ -43,6 +57,17 @@
 }
 .hslide{
     align-items: center;
+    padding-block: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+.text-carusel-one{
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
 }
 .types {
     background-image: url(../img/type_optimized.jpg);
@@ -50,11 +75,12 @@
     background-repeat: no-repeat;
     align-items: center;
     width: auto;
-    min-height: 700px;
+    height: 900px;
     }
-img{
-    width: 100px;
+.imgcarouselone{
+    max-width: 100px;
     height: auto;
+    padding-top:70px;
 }
 
 section div div .button-outline-button{
@@ -76,6 +102,7 @@ section .check {
     display: flex;
     align-items: baseline;
     justify-content: center;
+    padding-top: 10px;
 }
 section div .check-icon {
     height: 25px;
@@ -113,12 +140,14 @@ min-width: 250px;
 
 }
 section div .slide-honey{
-    display: grid; 
+    display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color:white;  
     margin-left:15px;
     margin-right: auto; 
-    max-width: 400px;
+    max-width: 700px;
     border-radius:15px;
 }
 @media (max-width: 650px){
@@ -130,6 +159,8 @@ section div .slide-honey{
     display: grid;
     grid-column-start: 2;
     grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    padding: 0;
 }
 .blocktyes {
     background: var(--background);
@@ -151,7 +182,7 @@ section div .slide-honey{
 .block-chec{
     display: grid;
 }
-  .slidestype{
+.slidestype{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

@@ -9,53 +9,54 @@
   --main-color:rgb(90, 55, 51);
   --hover-color: #eb6d2f;
   --background: #F9F4F0;
-}
 
+}
 body{
-max-width: 100%;
-margin: auto;
+  max-width: 100%;
+  margin: auto;
 }
 
 .banner {
-background-image: url(../img/cover.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: top;
-height: 800px;
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  height: 800px;
 }
+
 header .logo img{
-width: 200px;
-height: auto;
+  width: 200px;
+  height: auto;
 }
 
 .burger-icon {
-font-size: 2.5rem;
-padding-left: 200px;
-align-items: left;
-cursor: pointer;
+  font-size: 2.5rem;
+  align-items: left;
+  cursor: pointer;
+  padding-left: 150px;
 }
 #burger-checkbox {
-display: none;
-align-items: center;
-padding-bottom: 15px;
-height: auto;
+  display: none;
+  align-items: center;
+  padding-bottom: 15px;
+  height: auto;
 }
 
 header .menu {
-padding: 50px;
-display: none;
-font-weight: bold;
-background-color: var(--background); 
-
+  padding: 50px;
+  display: none;
+  font-weight: bold;
 }
 
 input:checked ~ .menu {
-display: block;  
+  display: block;  
 } 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
 .burger-icon {
-    display: none;}
-} 
+    display: none;
+  margin-right: 100px;}
+
 header .menu a{
 display: block;
 text-decoration: none;
@@ -63,15 +64,66 @@ color: var(--main-color);
 text-align: center;
 margin-left: 30px;
 }
-
+.logo{
+  align-items: flex-start;
+}
 
 header .menu a:hover{
 color: var(--hover-color);
 }
+}
+@media (min-width: 800px) {
+  header .top-nav{
+    display: flex;
+      align-items: stretch;
+  padding: 0px 0px;
+      
+  }
+  header nav .menu {
+    display: flex;
+    flex: 1; 
+    align-items: baseline;   
+    justify-content: flex-end;
+    padding-left: 15px;
+    margin-left:20px;
+  }
+  }
+  header .top-nav {
+    display: flex;
+    align-items: center;
+    padding: 13px 100px;
+    justify-content: space-around;
+  }
+  
+.button-outline-button{
+background-color: var(--background);
+color: var(--hover-color);
+text-decoration: none;
+font-weight: bold;
+padding: 5px 10px;
+border-radius:10px;
+border: 2px solid var(--hover-color);
+}
+
+header div .button-outline-button:hover {
+background-color: var(--hover-color);
+color: white; 
+text-decoration: none;
+font-weight: bold;
+padding: 5px 10px;
+border-radius:10px;
+}
 
 
 /* honney section */
-.honeybee-section {
+.honeybee-section{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/*.honeybee-section {
 display: grid;
 grid-template-columns: 1fr 1fr;
 justify-content: center;
@@ -84,8 +136,7 @@ display: grid;
 grid-template-columns: none;
 grid-template-rows: 1fr 1fr;
 }
-}
-
+}*/
 
 .organictitle {
 font-size: 16px;
@@ -94,13 +145,16 @@ text-align: left;
 padding-top: 180px;
 }
 .maintitle {
-font-size: 70px;
-font-weight: bold;
-color: var(--main-color);
-text-transform: uppercase;
+  width: 100%;
+  max-width: 1000px;
+  font-weight: bold;
+  color: var(--main-color);
+  text-transform: uppercase;
 }
 .phoney{
-padding-bottom: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 450px;
 }
 header div .button{
 background-color: var(--hover-color);
@@ -109,33 +163,11 @@ text-decoration: none;
 font-weight: bold;
 padding: 15px 25px;
 border-radius:10px;  
+width: 50px;
 }
 header div .button:hover {
 background-color: rgb(248, 187, 20);
 color: white;
-}
-
-@media (min-width: 700px) {
-header .top-nav{
-  display: flex;
-  align-items: center;
-padding: 0px 0px;
-    
-}
-header nav .menu {
-  display: flex;
-  flex: 1; 
-  align-items: baseline;   
-  justify-content: flex-end;
-  padding-left: 15px;
-  margin-left:20px;
-}
-}
-header .top-nav {
-  display: flex;
-    align-items: center;
-  padding: 13px 100px;
-  justify-content: center;
 }
 
 /* Anna end */
