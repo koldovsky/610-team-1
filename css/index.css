@@ -641,7 +641,7 @@ input[type="text"], input[type="tel"], input[type="email"] {
 }
 
 .testimonials-container{
-  background-image: url(..img/testimonials-people/testimonials-background.jpg);
+  background-image: url(../img/testimonials-people/testimonials-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
